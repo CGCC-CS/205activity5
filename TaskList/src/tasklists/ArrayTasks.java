@@ -5,7 +5,6 @@ import tasks.Task;
 public class ArrayTasks implements TaskList {
 	private Task tasks[];
 	private int num;
-
 	
 	public ArrayTasks(int n) {
 		num = 0;

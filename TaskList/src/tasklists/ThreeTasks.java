@@ -2,7 +2,9 @@ package tasklists;
 
 import tasks.*;
 
-public class ThreeTasks implements TaskList{
+/* This class allows you to store up to 3 tasks */
+
+public class ThreeTasks implements TaskList {
 
 	private Task task1;
 	private Task task2;

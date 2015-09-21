@@ -1,10 +1,10 @@
 package tasks;
 
+/* Simple prioritized task class */
+
 public class Task implements Priority {
     private String name;
 	private int priority;
-
-	
 
 	public Task(String name, int priority) {
 		super();
@@ -29,6 +29,6 @@ public class Task implements Priority {
 	}
 
 	public String toString() {
-		return name + "[" + priority + "]";
+		return name + " [" + priority + "]";
 	}
 }
